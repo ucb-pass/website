@@ -1,0 +1,454 @@
+/* basic components */
+
+#header {
+    width: 960px;
+    border: 0;
+    background: white;
+}
+
+#wrapper {
+    background: white;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    overflow: auto;
+}
+
+body {
+    color: #fff;
+    background: #eee;
+    border: 0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer {
+    color: #fff;
+    background: black;
+    padding: 0 auto 0 auto;
+    margin: 0 auto 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    border-top: 4px solid #F8DB43;
+    line-height: 35px;
+    width: 960px;
+	clear:both;
+	bottom: 0;
+	}
+
+/* secondary features */
+
+#content {
+    float: left;
+    width: 490px;
+    padding: 25px;
+    margin: 10px auto 5px auto;
+    display: box;
+    background: black;
+	color: white;
+	border-radius: 10px;
+}
+
+#content h2 {
+    background: #13a3e0;
+    display: inline-block;
+    padding: 10px; 
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+	
+}
+
+#content a {
+	color: #13a3e0;
+}
+
+#update {
+    float: left;
+    width: 490px;
+    padding: 25px;
+    margin: 10px auto 5px auto;
+    display: box;
+    background: black;
+    color: white;
+}
+
+#update h2 {
+    background: #13a3e0;
+    display: inline-block;
+    padding: 10px; 
+    margin: 0 auto;
+	color: white;
+}
+
+#update ul, ul li {
+	list-style: none;
+	font-weight: bold;
+	font-size:20px;
+	margin-bottom: 5px;
+}
+
+#update p {
+	font-size:16px;
+}
+
+#update2 {
+    float: left;
+    width: 490px;
+    padding: 25px;
+    margin: 5px auto 5px auto;
+    display: box;
+    background: #13a3e0;
+    color: white;
+}
+
+#update2 h2 {
+    background: black;
+    display: inline-block;
+    padding: 10px; 
+    margin: 0 auto;
+	color: white;
+}
+
+#update2 ul, ul li {
+	list-style: none;
+	font-weight: bold;
+	font-size:20px;
+	margin-bottom: 5px;
+}
+
+#update2 p {
+	font-size:16px;
+}
+
+#update2 a {
+	color: #ffdd00;
+}
+
+#twitter {
+    float: left;
+    width: 490px;
+    padding: 25px;
+    margin: 5px auto 5px auto;
+    display: box;
+    background: black;
+    color: white;
+    border-radius: 10px
+}
+
+#twitter h2 {
+    background: #13a3e0;
+    display: inline-block;
+    padding: 10px; 
+    margin: 0 auto;
+	color: white;
+	text-decoration: none;
+}
+
+#twitter a {
+	color: white;
+	text-decoration: none;
+}
+
+#twitter ul a, li a {
+	text-decoration: none;
+	color: #13a3e0;
+}
+
+#twitter ul, li {
+	list-style: none;
+	font-weight: bold;
+	font-size:20px;
+}
+
+#content2 {
+    float: left;
+    width: 490px;
+    padding: 25px;
+    margin: 5px auto 5px auto;
+    display: box;
+    background: #13a3e0;
+	color: white;
+	overflow: auto;
+	border-radius: 10px;
+}
+
+#content2 h2 {
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 10px; 
+    margin: 0 auto;
+	border-radius: 10px;
+}
+
+#content2 li {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+#sidebar {
+    float: right;
+    padding: 25px;
+    width: 350px;
+    margin: 10px 10px 10px auto;
+    display: box;
+    background: #13A3E0;
+    border-radius: 10px;
+}
+
+#sidebar h2 {
+    background: #000;
+    display: inline-block;
+    padding: 10px; 
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#siderbar h3 {
+    color: #fff;
+}
+
+/* styles */
+
+h1, h2, h3, h4, h5, h6, strong { /* OR (,) */
+    color: #fff;
+}
+
+a {
+    color: #F8DB43;
+}
+
+html body div a:hover {
+    color: #FF66CC;
+	text-decoration: none;
+}
+
+img {
+    background: #fff;
+	border: 10px solid #13a3e0;
+}
+
+#content2 img {
+	background: #fff;
+	border: 10px solid #ffdd00;
+}
+
+#header img {
+	border: 0;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	table-layout: fixed;
+	border-radius: 5px;
+}
+
+td {
+	width: 100%;
+}
+
+table, tr, td {
+	border: 2px solid #13A3e0;
+	text-align:center;
+	padding: 5px;
+	empty-cells: hide;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+td.label {
+	background: black;
+}
+
+td.info {
+	background: #eee;
+	color: black;
+}
+
+table.staff {
+	border-collapse: collapse;
+	border-spacing: 0;
+	table-layout: fixed;
+}
+
+table.staff td {
+	border: 2px solid #000;
+	text-align:center;
+	padding: 5px;
+	empty-cells: hide;
+	background: #eee;
+	color: black;
+}
+
+table.staff td.label {
+	background: #13a3e0;
+	width: 50%
+	color: white;
+	font-weight: bold;
+}
+
+table.staff td.info {
+	background: #eee;
+	color: black;
+	font-weight: normal;
+}
+
+table.links  td {
+	border: 2px solid #13a3e0;
+	text-align: center;
+	padding: 5px;
+	width:50%;
+	empty-cells: hide;
+	background: white;
+	color: black;
+}
+
+table.links td.label {
+	background: black;
+	color: white;
+	font-weight: bold;
+	width: 25%;
+}
+
+table.links td.label a {
+	color: white;
+}
+
+table.links td.info {
+	font-weight: normal;
+	background: #eee;
+	width: 25%
+}
+
+table.links td.info a {
+	color: black;
+}
+
+table.links2  td {
+	border: 2px solid #000;
+	text-align: center;
+	padding: 5px;
+	width:50%;
+	empty-cells: hide;
+	color: white;
+}
+
+table.links2 td.label {
+	background: #13a3e0;
+	color: white;
+	font-weight: bold;
+	width: 50%;
+}
+
+tabel.links2 td.label a {
+	color: white;
+}
+
+table.links2 td.info {
+	font-weight: normal;
+	background: #eee;
+	color: black;
+}
+
+<---! Navigation Bar !--->
+/* Main menu settings */
+#centeredmenu {
+   clear:both;
+   float:left;
+   margin:0;
+   padding:0;
+   width:100%;
+   font-size:100%; /* Menu text size */
+   z-index:1000; /* This makes the dropdown menus appear above the page content below */
+   position:relative;
+}
+
+/* Top menu items */
+#centeredmenu ul {
+   margin:0;
+   padding:0;
+   list-style:none;
+   float:right;
+   position:relative;
+   right:50%;
+}
+#centeredmenu ul li {
+   margin:0 0 0 0;
+   padding:0;
+   float:left;
+   position:relative;
+   left:50%;
+}
+#centeredmenu ul li a {
+   display:block;
+   margin:0;
+   padding:.6em .5em .4em;
+   font-size:20px;
+   line-height:1em;
+   background: black;
+   text-decoration:none;
+   color:white;
+   font-weight:bold;
+}
+#centeredmenu ul li.active a {
+   color:black;
+   background:#ffdd00;
+}
+#centeredmenu ul li a:hover {
+   background:#13A3E0; /* Top menu items background colour */
+   color:#fff;
+}
+#centeredmenu ul li:hover a,
+#centeredmenu ul li.hover a { /* This line is required for IE 6 and below */
+   background:#13A3E0; /* Top menu items background colour */
+   color:#fff;
+}
+
+/* Submenu items */
+#centeredmenu ul ul {
+   display:none; /* Sub menus are hidden by default */
+   position:absolute;
+   top:2em;
+   left:0;
+   right:auto; /*resets the right:50% on the parent ul */
+   width:10em; /* width of the drop-down menus */
+}
+#centeredmenu ul ul li {
+   left:auto;  /*resets the left:50% on the parent li */
+   margin:0; /* Reset the 1px margin from the top menu */
+   clear:left;
+   width:100%;
+}
+#centeredmenu ul ul li a,
+#centeredmenu ul li.active li a,
+#centeredmenu ul li:hover ul li a,
+#centeredmenu ul li.hover ul li a { /* This line is required for IE 6 and below */
+   font-size:1em;
+   font-weight:normal; /* resets the bold set for the top level menu items */
+   background:#000;
+   color:#fff;
+   line-height:2em; /* overwrite line-height value from top menu */
+   border-bottom:; /* sub menu item horizontal lines */
+}
+#centeredmenu ul ul li a:hover,
+#centeredmenu ul li.active ul li a:hover,
+#centeredmenu ul li:hover ul li a:hover,
+#centeredmenu ul li.hover ul li a:hover { /* This line is required for IE 6 and below */
+   background:#eee; /* Sub menu items background colour */
+   color:#000;
+}
+
+/* Flip the last submenu so it stays within the page */
+#centeredmenu ul ul.last {
+   left:auto; /* reset left:0; value */
+   right:0; /* Set right value instead */
+}
+
+/* Make the sub menus appear on hover */
+#centeredmenu ul li:hover ul,
+#centeredmenu ul li.hover ul { /* This line is required for IE 6 and below */
+   display:block; /* Show the sub menus */
+}

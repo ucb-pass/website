@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+	<title>Pilipino Academic Student Services</title>
+	<meta name="description" content="Pilipino Academic Student Services is an entirely student-run organization formed in 1985 to address the educational  concerns of Pilipino students in pursuit of higher education. PASS attempts to remedy the lack of representation among the University's student population with respect to the growing Pilipino population of California." />
+        <meta charset=utf-8" />
+        <meta name="keywords" content="PASS, Pilipino, Academic, Student Services, UC Berkeley, higher education" />
+        <link href="cleanstyle.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+    <div id="wrapper">
+		<div id="header">	
+		  <a id="imageurl" name="imageurl"><img src="Rotating1" id="Rotating1" border="0" alt="Rotating1" name="Rotating1" onmouseover="StopRotation();" onmouseout="RotateImages();"/></a>
+<script language="javascript" type="text/javascript">
+
+  var currentImage = 0;
+  function RotateImages()
+  {
+    var a = new Array("passlogo.png","about.jpg", "programs.jpg", "internship.jpg", "advocacy.jpg", "resources.jpg");
+    var c = new Array("url1", "url2", "url3", "url4");
+    var b = document.getElementById('Rotating1');
+    var d = document.getElementById('imageurl');
+
+    currentImage++;
+
+    if(currentImage>= a.length)
+      currentImage=0;
+
+    b.src = a[currentImage];
+    d.href = c[currentImage];
+
+    rotator = window.setTimeout("RotateImages(" + (currentImage+1) + ")",3500);
+  }
+
+  function StopRotation()
+  {
+    window.clearTimeout(rotator);
+  }
+
+  RotateImages();
+
+</script>
+		</div>
+		<br>
+		<div id="centeredmenu">
+		 <nav>
+			<ul>
+				<li><a href="http://www.ocf.berkeley.edu/~pass/index.html"  title="">Home</a></li><li><a href="http://www.ocf.berkeley.edu/~pass/about.html" title="">About</a></li><li><a href="http://www.ocf.berkeley.edu/~pass/staff.html" title="">Staff</a>
+					<ul>
+						<li><a href="http://www.ocf.berkeley.edu/~pass/staff/internal.html" title="">Internal Affairs</a></li>
+						<li><a href="http://www.ocf.berkeley.edu/~pass/staff/recruitment.html" title="">Recruitment</a></li>
+						<li><a href="http://www.ocf.berkeley.edu/~pass/staff/retention.html" title="">Retention</a></li>
+					</ul>
+				</li>
+				<li><a href="http://www.ocf.berkeley.edu/~pass/programs.html" title="">Programs</a></li><li><a href="http://www.ocf.berkeley.edu/~pass/internship.html" title="">Internship</a></li><li class="active"><a href="http://www.ocf.berkeley.edu/~pass/advocacy.html" title="">Advocacy</a></li><li><a href="http://www.ocf.berkeley.edu/~pass/alumni.html" title="">Alumni</a></li><li><a href="http://www.ocf.berkeley.edu/~pass/resources.html" title="">Resources & Media</a>
+					<ul>
+						<li><a href="http://pass-retention.tumblr.com" title="">Retention Tumblr</a></li><li><a href="https://www.facebook.com/pages/PASS-Retention/174479525924096" title="">Retention Facebook</a></li><li><a href="http://passadvocacy.tumblr.com" title="">Advocacy Tumblr</a></li>
+					</ul>
+				</li>
+			</ul>
+		 </nav>
+		</div>
+	 <br><br>
+		<div id="sidebar">
+			<h2>Advocacy</h2>
+			<h3><a href="aapro209.html"><strong>Affirmative Action and Prop 209</strong></a></h3>
+			<h3><a href="ab540.html"><strong>AB540, AB130, and AB131</strong></a></h3>
+			<h3><a href="2012ad.html"><strong>2012 Admissions Policy</strong></a></h3>
+			<h3><a href="opex.html"><strong>Operational Excellence</strong></a></h3>
+		</div>
+		<div id="content">
+			<h2>2012 Admissions Policy</h2>
+			 <p>The 2012 Admissions Policy is the new set of admissions requirements which the University of California system uses when considering prospective freshman applicants.</p>
+			 <p>Students' qualifications will be assessed using campus-based review processes, which emphasize academic achievement but also account for a wide range of personal accomplishments and educational contexts." (<a href="http://www.universityofcalifornia.edu/admissions/counselors/q-and-a/policy-change/index.html">Source</a>)</p>
+			 <p>The following three requirements, if fulfilled by California high school seniors, will entitle their applications to a comprehensive review:</p>
+			 <table class="links2">
+				<tr>
+					<td class="label">15 completed UC-required college-prep (a-g) courses, of which 11 must be complete by the end of their Junior year 3.0 GPA or Higher in these courses. These requirements can be found <a href="http://www.ucop.edu/a-gGuide/ag/a-g/a-g_reqs.html"><strong><em>here</strong></em></a>.</td>
+				</tr>
+				<tr>
+					<td class="label">ACT with Writing OR SAT Reasoning Test only. (SAT Subject Test/SAT II no longer required, but instead recommended.)</td>
+				</tr>
+				<tr>
+					<td class="label">Students who fall in the top 9% of all its graduates statewide and within their own high school graduating class are guaranteed admission somewhere in the UC system. Due to varying selectivity, a student's admission chances vary are different among the UC campuses.</td>
+				</tr>
+			</table>
+        </div>
+		 <div id="content2">
+			<h2>Contact</h2>
+				<p>For more information, contact <strong>Jordan Medina</strong>, <a href="http://www.ocf.berkeley.edu/~pass/staff/advocacycoord.html"><strong><em>Advocacy Coordinator (2012-2013)</em></strong></a> at <strong>pass.advocacy@gmail.com</strong>.</p>
+				<p><img src="http://www.ocf.berkeley.edu/~pass/staff/images/maria.png"></p>
+		 </div>
+	</div>	
+</body>
+<footer>
+	<center><strong>Pilipino Academic Student Services</strong> | Hearst Field Annex A-10B, Berkeley, CA 94720 | ucberkeleypass@lists.berkeley.edu | Hosted by the <a href="http://www.ocf.berkeley.edu">Open Computing Facility</a></center>
+</footer>
+</html>

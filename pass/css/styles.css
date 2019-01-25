@@ -1,0 +1,107 @@
+.recruitment-yellow{
+    background-color: #f9f9d1    !important;
+}
+
+.recruitment-text{
+    color: #f7d00e;
+}
+
+.retention-red{
+    background-color: #fce2de !important;
+}
+
+.retention-text{
+    color: #dd220d;
+}
+
+.internal-blue{
+    background-color: #c9ecfc !important;
+}
+
+.internal-text{
+    color: #0c229e;
+}
+
+.director-text{
+    color: #000835;
+}
+
+.top-title{
+    font-family: "Cabin" !important;
+}
+
+.intro-heading{
+    margin-bottom: 10px !important;
+}
+
+.section-container{
+    margin-top: -80px;
+    margin-bottom: -80px;
+}
+
+.img-event-popup{
+    height: 35vh;
+}
+
+.popup-title{
+    font-size: 7vh;
+    color: #ffcc4f;
+    margin-top: 60px;
+}
+
+.modal-content{
+    background-color: #f2fbff !important;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.indent {
+    text-indent: 50px;
+}
+
+h4 {
+    font-family: "Hammersmith One";
+    font-size: 25px;
+}
+
+.desc {
+    font-family: 'Catamaran';
+    font-size: 21px;
+}
+
+.intro-text{
+    margin-top: -25px;
+}
+
+.ext-link {
+    color: #0777ff;
+}
+
+.white {
+    color: white;
+}
+
+.dark-yellow {
+    color: #e2b500;
+}
+
+.muted {
+    opacity: 0.4;
+}
+
+.col-md-4 {
+    text-align:center;
+    vertical-align:middle;
+}
+
+.light-blue{
+  color: #a2e8dd;
+}
+
+.mauve{
+  color: #e7b1e7;
+}
